@@ -52,8 +52,8 @@ textarea {
 
 .estrellas {
   position: relative;
-  width: 390px;
-  height: 225px;
+  width: 351px;
+  height: 203px;
   margin: 0 auto;
   font-family: 'Cabin Sketch', cursive;
 
@@ -65,8 +65,8 @@ textarea {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 35px;
-  height: 225px;
+  width: 32px;
+  height: 203px;
   margin-left: -35px;
   line-height: 397.5px;
   /* height*2 - font-size */
@@ -108,7 +108,7 @@ textarea {
 }
 
 .inverso span {
-  line-height: 35px;
+  line-height: 32px;
   transform-origin: bottom center;
   font-family: 'Cabin Sketch', cursive;
 
