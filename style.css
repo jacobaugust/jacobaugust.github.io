@@ -47,7 +47,7 @@ img {
 input,
 select,
 textarea {
-  max-width: 316px;
+  max-width: 400px;
 }
 
 .estrellas {
