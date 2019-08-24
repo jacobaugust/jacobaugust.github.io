@@ -4,14 +4,16 @@ body {}
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-family: 'Cabin Sketch', cursive;
 
 
@@ -47,7 +49,7 @@ img {
 input,
 select,
 textarea {
-  max-width: 400px;
+  max-width: 265px;
 }
 
 .estrellas {
