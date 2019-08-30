@@ -4,8 +4,8 @@ body {}
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
@@ -18,8 +18,22 @@ body {
 
 
 }
+
 body {
   background-color: lightsteelblue;
+}
+
+i {
+  background-color: #e3f2fd;
+  color: black;
+  box-shadow: 0px -10px 20px -9px #095659;
+  position: relative;
+  border: 2px solid aliceblue;
+  font-family: 'Fredericka the Great', cursive;
+  
+  width: 88%;
+
+
 }
 
 
