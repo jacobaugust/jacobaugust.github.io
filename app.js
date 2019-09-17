@@ -1,36 +1,32 @@
-$(function(){
-  $('.carousel-item').eq(0).addClass('active');
-  var total = $('.carousel-item').length;
-  var current = 0;
-  $('#moveRight').on('click', function(){
-    var next=current;
-    current= current+1;
-    setSlide(next, current);
-  });
-  $('#moveLeft').on('click', function(){
-    var prev=current;
-    current = current- 1;
-    setSlide(prev, current);
-  });
-  function setSlide(prev, next){
-    var slide= current;
-    if(next>total-1){
-     slide=0;
-      current=0;
-    }
-    if(next<0){
-      slide=total - 1;
-      current=total - 1;
-    }
-           $('.carousel-item').eq(prev).removeClass('active');
-           $('.carousel-item').eq(slide).addClass('active');
-      setTimeout(function(){
+$('#js-flip').bind({
+    click: function() {
+        $('#js-flip .card').toggleClass('flipped');
+    },
+    mouseleave: function() {
+	    	if ($('#js-flip .card').hasClass('flipped')) {
+	    	    $('.card').removeClass('flipped');
+	      }
+	  }
+});
 
-      },800);
-    
+$('#js-flip-1').bind({
+    click: function() {
+        $('#js-flip-1 .card').toggleClass('flipped');
+    },
+    mouseleave: function() {
+	    	if ($('#js-flip-1 .card').hasClass('flipped')) {
+	    	    $('.card').removeClass('flipped');
+	      }
+	  }
+});
 
-    
-    console.log('current '+current);
-    console.log('prev '+prev);
-  }
+$('#js-flip-2').bind({
+    click: function() {
+        $('#js-flip-2 .card').toggleClass('flipped');
+    },
+    mouseleave: function() {
+	    	if ($('#js-flip-2 .card').hasClass('flipped')) {
+	    	    $('.card').removeClass('flipped');
+	      }
+	  }
 });
