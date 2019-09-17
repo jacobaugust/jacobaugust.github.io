@@ -184,8 +184,8 @@ textarea {
 
 .estrellas {
   position: relative;
-  width: 520px;
-  height: 300px;
+   width: 256.5px;
+  height: 148.5px;
   margin: 0 auto;
   font-family: 'Cabin Sketch', cursive;
 
@@ -197,10 +197,10 @@ textarea {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 70px;
-  height: 300px;
-  margin-left: -35px;
-  line-height: 530px;
+  width: 24.3px;
+  height: 148.5px;
+  margin-left: -18.225px;
+  line-height: 291.15px;
   /* height*2 - font-size */
   text-align: center;
   transform-origin: top center;
