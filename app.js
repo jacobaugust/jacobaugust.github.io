@@ -30,3 +30,7 @@ $('#js-flip-2').bind({
 	      }
 	  }
 });
+
+$('.containerOne').on('click', function () {
+  $('.cardOne').toggleClass('flippedOne');
+});
