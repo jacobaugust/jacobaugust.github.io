@@ -10,6 +10,8 @@ body {
 }
 
 
+
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
   padding-left: 15px;
@@ -50,6 +52,9 @@ img {
 
 }
 
+footer {
+  margin: auto;
+}
 
 
 /* Override the default bootstrap behavior where horizontal description lists 
