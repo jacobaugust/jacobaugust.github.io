@@ -24,6 +24,11 @@ body {
 body {
   background-color: lightsteelblue;
 }
+footer {
+  height: 350px;
+  width: 300px;
+   border-radius: 4px;
+}
 
 i {
   background-color: #e3f2fd;
