@@ -24,7 +24,7 @@ body {
 body {
   background-color: lightsteelblue;
 }
-footer {
+.foot {
   height: 350px;
   width: 300px;
    border-radius: 4px;
