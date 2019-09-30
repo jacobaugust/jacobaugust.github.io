@@ -399,3 +399,21 @@ body {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
+
+
+svg {
+  display: block;
+  position: inherit;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.filler {
+
+  position: absolute;
+  bottom: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
