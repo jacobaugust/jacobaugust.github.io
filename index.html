@@ -26,7 +26,6 @@
         border: 2px solid aliceblue;
         font-family: 'Fredericka the Great', cursive;
       }
-
       .nav-pills .pill-3 .nav-link {
         background-color: #e3f2fd;
         color: black;
@@ -35,7 +34,6 @@
         border: 2px solid aliceblue;
         font-family: 'Fredericka the Great', cursive;
       }
-
       .nav-pills .pill-4 .nav-link {
         background-color: #e3f2fd;
         color: black;
@@ -44,7 +42,6 @@
         border: 2px solid aliceblue;
         font-family: 'Fredericka the Great', cursive;
       }
-
       h3 {
         font-family: 'Fredericka the Great', cursive;
         text-align: center;
@@ -56,15 +53,12 @@
         text-align: center;
         font-size: 200%;
       }
-
       p {
         font-family: 'Fredericka the Great', cursive;
         text-align: center;
         font-size: 100%;
         line-height: 50px;
-
       }
-
     </style>
 
   </head>
@@ -146,31 +140,26 @@
           <div class="container">
   <div class="row">
     <div class="col class="container-fluid justify-content-center">
-
     </div>
        
     <div class="col-6">
-                      
-                <p>Album Coming Soon</p>       
-                       <img src="https://i.imgur.com/N4sQa3w.jpg">    
-      <p>December 2019</p>
-      
-    </div>
-                               
+                       <p>Album Coming Soon</p>
+   
+                                                                                 
+      <img src="https://i.imgur.com/N4sQa3w.jpg">   
+                                                <p>December 2019</p>
                                                 
  <br>
                                                 <br>
    
     </div>
     <div class="col">
-
     </div>
     
   </div>
 <br>
   <div class="row">
     <div class="col">
-
     </div>
     <div class="col-6”>
     </div>
@@ -285,7 +274,6 @@
     }
   }
 });
-
 $('#js-flip-1').bind({
   click: function() {
     $('#js-flip-1 .card').toggleClass('flipped');
@@ -296,7 +284,6 @@ $('#js-flip-1').bind({
     }
   }
 });
-
 $('#js-flip-2').bind({
   click: function() {
     $('#js-flip-2 .card').toggleClass('flipped');
@@ -307,7 +294,6 @@ $('#js-flip-2').bind({
     }
   }
 });
-
 $('.containerOne').on('click', function () {
   $('.cardOne').toggleClass('flippedOne');
 });
@@ -316,26 +302,21 @@ var hands = [];
 hands.push(document.querySelector('#secondhand > *'));
 hands.push(document.querySelector('#minutehand > *'));
 hands.push(document.querySelector('#hourhand > *'));
-
 var cx = 100;
 var cy = 100;
-
 function shifter(val) {
   return [val, cx, cy].join(' ');
 }
-
 var date = new Date();
 var hoursAngle = 360 * date.getHours() / 12 + date.getMinutes() / 2;
 var minuteAngle = 360 * date.getMinutes() / 60;
 var secAngle = 360 * date.getSeconds() / 60;
-
 hands[0].setAttribute('from', shifter(secAngle));
 hands[0].setAttribute('to', shifter(secAngle + 360));
 hands[1].setAttribute('from', shifter(minuteAngle));
 hands[1].setAttribute('to', shifter(minuteAngle + 360));
 hands[2].setAttribute('from', shifter(hoursAngle));
 hands[2].setAttribute('to', shifter(hoursAngle + 360));
-
 for (var i = 1; i <= 12; i++) {
   var el = document.createElementNS('http://www.w3.org/2000/svg', 'line');
   el.setAttribute('x1', '100');
